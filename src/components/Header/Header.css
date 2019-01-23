@@ -1,0 +1,10 @@
+.__header-container {
+    background-image: linear-gradient(to right, var(--blue-color), var(--green-color));
+    padding: 1.75rem 0;
+}
+
+.__header-title {
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+}

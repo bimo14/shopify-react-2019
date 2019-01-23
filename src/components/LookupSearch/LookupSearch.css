@@ -1,0 +1,17 @@
+.__lookup_search-left {
+    padding: 0 0.25rem 0 0;
+    width: calc(100% - 45px - 0.25rem - 0.25rem - 10px);
+}
+
+.__lookup_search-right {
+    padding: 0 0 0 0.25rem;
+    text-align: right;
+    width: 50px;
+}
+
+.__lookup_search-input {
+    font-size: 1.15rem;
+    height: 45px;
+    width: 100%;
+}
+

@@ -1,0 +1,31 @@
+.__item_div {
+    margin-top: 1.2rem;
+}
+
+.__item_div-star-block {
+    vertical-align: top;
+    width: 45px;
+}
+
+.__item_div-star-block > svg {
+    cursor: pointer;
+}
+
+.__item_div-title-block {
+    vertical-align: top;
+    width: 40%;
+}
+
+.__item_div-detail-block {
+    padding-left: 1.2rem; 
+    vertical-align: top;
+    width: calc(100% - 40% - 45px - 1.2rem);
+}
+
+.__item_div p, .__item_div ul {
+    margin: 0;
+}
+
+.__item_div li {
+    padding-bottom: 0.8rem; 
+}

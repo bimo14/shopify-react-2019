@@ -1,3 +1,9 @@
+:root {
+  --blue-color: #1D5895;
+  --green-color: #24975D;
+  --green-color-10: rgba(36, 151, 93, 0.1);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +17,41 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+input {
+  border: 1px solid #B4B4B4;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0.25rem 0.85rem;
+  vertical-align: middle;
+}
+
+input:focus {
+  border: 1px solid var(--blue-color);
+}
+
+button {
+  background: var(--green-color);
+  border: none;
+  border-radius: 0.2rem; 
+  box-shadow: 0 1px 1px 0 #B4B4B4;
+  box-sizing: border-box;
+  outline: none;
+  vertical-align: middle;
+}
+
+button:active {
+  filter: brightness(85%);
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.max-width-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 1.2rem; 
 }

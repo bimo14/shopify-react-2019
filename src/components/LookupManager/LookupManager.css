@@ -1,0 +1,13 @@
+.__lookup_manager-result {
+    padding-bottom: 1.2rem; 
+}
+
+.__lookup_manager-favourites {
+    background-color: var(--green-color-10); 
+    padding-bottom: 1.2rem;
+}
+
+.__lookup_manager-favourites-title {
+    color: var(--green-color);
+    padding: 1.2rem 0;
+}
