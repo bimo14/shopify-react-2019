@@ -37,5 +37,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDm4QpWwQQUFkLxR0CC6ao85LzydFiPjic",
+        authDomain: "shopify-react-2019.firebaseapp.com",
+        databaseURL: "https://shopify-react-2019.firebaseio.com",
+        projectId: "shopify-react-2019",
+        storageBucket: "shopify-react-2019.appspot.com",
+        messagingSenderId: "1067575528472"
+      };
+      firebase.initializeApp(config);
+    </script>
   </body>
 </html>
